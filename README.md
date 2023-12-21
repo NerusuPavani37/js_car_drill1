@@ -1,0 +1,2 @@
+-completed basics of javascript
+-completed the drill related to it
