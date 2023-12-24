@@ -52,5 +52,7 @@ let inventory = [{"id":1,"car_make":"Lincoln","car_model":"Navigator","car_year"
 {"id":49,"car_make":"Chrysler","car_model":"Sebring","car_year":1996},
 {"id":50,"car_make":"Lincoln","car_model":"Town Car","car_year":1999}];
 
-let yearsOfAllCars = problem4_fn(inventory);//function calling
+/*calling function with the funtion which is importing and storing 
+what the function returns i.e array of years of all cars */
+let yearsOfAllCars = problem4_fn(inventory);
 console.log(yearsOfAllCars);//printing the array

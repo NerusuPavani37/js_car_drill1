@@ -52,6 +52,7 @@ let inventory = [{"id":1,"car_make":"Lincoln","car_model":"Navigator","car_year"
 {"id":49,"car_make":"Chrysler","car_model":"Sebring","car_year":1996},
 {"id":50,"car_make":"Lincoln","car_model":"Town Car","car_year":1999}];
 
-
-let sortedCarModels = problem3_fn(inventory);//calling funtion
-console.log(sortedCarModels);//printing
+/*calling function with the funtion which is importing and storing 
+the sortedArray in sortedCarModels */
+let sortedCarModels = problem3_fn(inventory);
+console.log(sortedCarModels);//printing the sorted array of car models

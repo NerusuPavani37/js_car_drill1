@@ -51,7 +51,10 @@ let inventory = [{"id":1,"car_make":"Lincoln","car_model":"Navigator","car_year"
 {"id":49,"car_make":"Chrysler","car_model":"Sebring","car_year":1996},
 {"id":50,"car_make":"Lincoln","car_model":"Town Car","car_year":1999}];
   
-var car_bmw_audi=problem6_fn(inventory); //now calling problem6 fun and sending our array as argument
+/*calling function with the funtion which is importing and storing 
+the function returns i.e the array which conatins objects of cars BMW and Audi*/
+var car_bmw_audi=problem6_fn(inventory); 
 
-var json_cars=JSON.stringify(car_bmw_audi); //JSON stringfying
-console.log(json_cars); //printing
+/*Convert the data object to a JSON-formatted string*/ 
+var json_cars=JSON.stringify(car_bmw_audi); 
+console.log(json_cars); //printing the json formatted string

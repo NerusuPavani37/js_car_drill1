@@ -53,8 +53,9 @@ let inventory = [{"id":1,"car_make":"Lincoln","car_model":"Navigator","car_year"
 {"id":49,"car_make":"Chrysler","car_model":"Sebring","car_year":1996},
 {"id":50,"car_make":"Lincoln","car_model":"Town Car","car_year":1999}];
 
-
-var carDetails_problem2 = problem2_fn(inventory,50);//function calling
+/*calling function with the funtion which is importing and storing 
+the object in carDetails_problem2 */
+var carDetails_problem2 = problem2_fn(inventory,50);
 //printing the asked last car details
 console.log(`Last car is a ${carDetails_problem2.car_make} ${carDetails_problem2.car_model}`)
 

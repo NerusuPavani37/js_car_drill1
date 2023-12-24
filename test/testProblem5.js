@@ -52,7 +52,10 @@ let inventory = [{"id":1,"car_make":"Lincoln","car_model":"Navigator","car_year"
 {"id":49,"car_make":"Chrysler","car_model":"Sebring","car_year":1996},
 {"id":50,"car_make":"Lincoln","car_model":"Town Car","car_year":1999}];
 
-var oldCars = problem5_fn(inventory);//function calling
+
+/*calling function with the funtion which is importing and storing 
+the what funtion returns i.e array which contains oldcars i.e manufactured before 2000*/
+var oldCars = problem5_fn(inventory);
 console.log(oldCars);//printing the array of olcars
 console.log(oldCars.length);//printing the length or count of oldcars
 
